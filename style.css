@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height:50px;
+    width:100%;
+    background-color: rgb(181, 123, 235);
+    font-size: 25px;
+    position: fixed;
+    top:0;
+ 
+}
+header{
+    margin-bottom: 30px;
+}
+h3{
+    font-size: 30px;
+}
+a{
+  margin-right: 300px;
+}
+.product-card{
+    background-color: rgb(188, 243, 243);
+    width:20%;
+    border:1px solid rgb(172, 172, 116);
+    border-radius: 5px;
+    padding: 15px;
+   
+}
+.product-card .thumbnail{
+    position:relative;
+}
+.product-card .thumbnail button{
+    position: absolute;
+    top:70px;
+    left:25%;
+    background-color: rgb(245, 124, 76);
+    color:aliceblue;
+    width:65px;
+}
+.product-card button{
+    display:block;
+    width:100%;
+    padding:10px 10px;
+    font-size: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.product-card #btn-1:hover{
+    background-color: rgb(140, 160, 120);
+    transition: .5s;
+}
+#sticky{
+    position: sticky;
+    background-color: rgb(175, 80, 155);
+    border: 1px solid rgb(73, 19, 73);
+    top:20px;
+    width: 70px;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+#btn-3{
+    position:fixed;
+    right:0;
+    top:50%;
+    background-color: rgb(235, 121, 206);
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 20px;
+
+}
